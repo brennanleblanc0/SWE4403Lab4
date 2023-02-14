@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.0.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>470</x>
+      <y>290</y>
+      <w>270</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>PersonAdapter
+--
+- p: Person
+--
++ PersonAdapter(p: Person)
++ setFullName(fullName: String): void
+- convertName(): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>160</x>
+      <y>290</y>
+      <w>220</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>Person
+--
+- fullName: String
+--
++ Person(fullName: String)
++ getFullName(): String
++ setFullName(fullName: String): void
++ toString(): String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>600</x>
+      <y>210</y>
+      <w>30</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>370</x>
+      <y>320</y>
+      <w>120</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;100.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>460</x>
+      <y>60</y>
+      <w>290</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>Customer
+--
+- lastName: String
+- firstName: String
+--
++ Customer(lastName, firstName: String)
++ getLastName(): String
++ getFirstName(): String
++ setLastName(lastName: String): void
++ setFirstName(firstName: String): void
++ toString(): String</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
