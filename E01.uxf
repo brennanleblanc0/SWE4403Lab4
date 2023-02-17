@@ -62,9 +62,9 @@
     <id>UMLClass</id>
     <coordinates>
       <x>460</x>
-      <y>50</y>
+      <y>40</y>
       <w>290</w>
-      <h>170</h>
+      <h>180</h>
     </coordinates>
     <panel_attributes>Customer
 --
@@ -72,6 +72,7 @@
 # firstName: String
 --
 + Customer(lastName, firstName: String)
+# Customer()
 + getLastName(): String
 + getFirstName(): String
 + setLastName(lastName: String): void
